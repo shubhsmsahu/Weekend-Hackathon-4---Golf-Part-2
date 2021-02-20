@@ -65,11 +65,7 @@ const App = () => {
       );
     } else {
       return (
-        <button
-          id="start"
-          className="ballProvider"
-          onClick={buttonClickHandler}
-        >
+        <button id="start" className="start" onClick={buttonClickHandler}>
           start
         </button>
       );
